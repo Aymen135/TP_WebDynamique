@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Ex3.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> Remplir le formulaire </h1>
+    <div class="formulaire" id="form">
+        <form id="for">
+            <label>Saisir votre pseudo* :</label><br>
+            <input type="text" name="pseudo" id="pseudo"><br>
+            <label>E-mail* :<u>exemple:votre_nom@hotmail.com</u></label><br>
+            <input type="email" name="email" id="email"><br>
+            <label for="">mot de passe* :</label><br>
+            <input type="password" name="password" id="password"><br>
+            <label for="">confirmer mot de passe* :</label><br>
+            <input type="password" name="passVerf" id="passVerf"><br><br><br>
+            <button onclick="Verification()">Vérifier vos informations avant de se connecter</button>
+            <button onclick="Reset()">effacer la saisie</button>
+            <button onclick="self.close()">fermer la fenêtre</button>
+        </form>
+        <hr>
+        <h2>Réalisé par Nous</h2>
+    </div>
+    <script src="EX3.js"></script>
+</body>
+
+</html>

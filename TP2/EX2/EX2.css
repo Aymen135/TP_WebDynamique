@@ -1,0 +1,22 @@
+img {
+    -webkit-transition: -webkit-transform .1s ease-in-out;
+    transition: transform .1s ease-in-out;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    /* border: 5px ridge;
+    border-color: rgba(255, 255, 255, 0.986); */
+}
+
+img:hover {
+    -webkit-transform: rotate(25deg);
+    transform: scale(1.25) rotate(25deg);
+    box-shadow: 4px, 4px, 10px, black;
+    width: 150px;
+    height: 150px;
+}
+
+table {
+    border: 2px;
+    margin: 500px;
+}
